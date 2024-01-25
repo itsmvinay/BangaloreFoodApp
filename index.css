@@ -20,17 +20,19 @@
 }
 
 .res-container{
-    display: flex;
-    flex: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
 .res-card {
     padding: 10px;
-    width: 200px;
+    width: auto;
     margin-right: 5px;
-    height: 300px;
+    /* height: 50%; */
     border: 1px solid black;
     background: lightgray;
+    /* font-size: 12px; */
+    margin-bottom: 5px;
 }
 
 .search {
@@ -38,12 +40,33 @@
 }
 
 .res-logo {
-    width: 100%;
-    height: 30%;
+    width: 10%;
+    height: 25%;
 }
 
 .top-res-btn {
     cursor: pointer;
     padding: 8px;
     text-align: center;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: lightgray;   
+}
+
+.filter{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.search-input {
+    margin-right: 5px;
 }

@@ -1,6 +1,6 @@
 import RestaurantCard from "./RestaurantCard";
 // import resObj from '../utils/mocks/mock-data';
-import Shimmer from "../Shimmer";
+import Shimmer from "../components/Shimmer";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
